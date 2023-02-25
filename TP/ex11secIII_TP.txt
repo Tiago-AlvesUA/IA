@@ -1,0 +1,48 @@
+
+Variáveis aleatórias:
+
+FR - Frequência exagerada da utilização do rato 
+SC - Sobrecarga de trabalho
+PA - Precisar de ajuda
+CP - Cara preocupada
+CNL - Correio eletrónico não lido
+PT - Usar processador de texto
+
+Tendo em conta Variáveis dependentes e independentes:
+
+  PT	   SC_____	                       
+  | \ 	     \	  \                        	    
+  |  \	      \    \                    
+  |   \_       \    \                  
+  |   _	PA _    \    \	                 -> FALTA QQ LIGAÇÃO
+  |  /	     \   \    \
+  | / 	      \___\    \
+  FR              CP   CNL
+ 
+P(PT) = 0.05   -> Independente   2^0 = 1 que condicionam
+  
+P(SC) = 0.60    -> Independente   2^0 = 1
+ 
+P(PA|PT) = 0.25                  2^1 = 2
+P(PA|~PT) = 0.004
+
+P(FR|PT,PA) = 0.90             2^2 = 4
+P(FR|PT,~PA) = 0.90
+P(FR|~PT,PA) = 0.1
+P(FR|~PT,~PA) = 0.01
+
+P(CP|PA,SC) = 0.02                2^2 = 4
+P(CP|~PA,SC) = 0.01
+P(CP|PA,~SC) = 0.011
+P(CP|~PA,~SC) = 0.001
+
+P(CNL|SC) = 0.90                 2^1 = 2              
+P(CNL|~SC) =  0.001
+
+
+
+
+
+
+
+
